@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simply web-site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#flip").click(function () {
+                $("#panel").slideToggle("down");
+            });
+        });
+
+        $(document).ready(function () {
+            $("#btn-responsive").click(function () {
+                $("#nav_list").slideToggle("slow");
+            });
+        });
+    </script>
+</head>
+
+<body bgcolor="black">
+    <div class="container">
+        <nav class="social-media">
+            <ul class="social-media__list">
+                <li class="social-media__item">
+                    <a href="tel:+998900902118" class="social-media__link">
+                        <img src="./image/telephone.png" alt="SM photo" class="social-media__photo">
+                    </a>
+                </li>
+                <li class="social-media__item">
+                    <a href="#" class="social-media__link">
+                        <img src="./image/telegram.png" alt="SM photo" class="social-media__photo">
+                    </a>
+                </li>
+                <li class="social-media__item">
+                    <a href="#" class="social-media__link">
+                        <img src="./image/instagram.png" alt="SM photo" class="social-media__photo">
+                    </a>
+                </li>
+                <li class="social-media__item">
+                    <a href="#" class="social-media__link">
+                        <img src="./image/youtube.png" alt="SM photo" class="social-media__photo">
+                    </a>
+                </li>
+                <li class="social-media__item">
+                    <a href="#" class="social-media__link">
+                        <img src="./image/twitter.png" alt="SM photo" class="social-media__photo">
+                    </a>
+                </li>
+                <li class="social-media__item">
+                    <a href="#" class="social-media__link">
+                        <img src="./image/linkedin.png" alt="SM photo" class="social-media__photo">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="nav-bar">
+            <a href="#" class="nav-bar__logo">
+                <img src="./image/logo.jpg" alt="NB photo" class="nav-bar__logo_photo">
+            </a>
+            <ul id="nav_list" class="nav-bar__list">
+                <li class="nav-bar__item">
+                    <a href="#" class="nav-bar__link">HOME</a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#" id="flip" class="nav-bar__link">LAPTOP TYPES <i class="fas fa-angle-down"></i></a>
+                    <ul id="panel" class="sub-menu">
+                        <li class="sub-menu__item">
+                            <a href="#" class="sub-menu__link">ACER</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#" class="sub-menu__link">ASUS</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#" class="sub-menu__link">HP</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#" class="sub-menu__link">LENOVO</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#" class="sub-menu__link">MAC</a>
+                        </li>
+                        <li class="sub-menu__item">
+                            <a href="#" class="sub-menu__link">MSI</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#" class="nav-bar__link">CUSTOMER SERVICE</a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="./login/login_index.html" class="nav-bar__link log_in">SIGN IN</a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="./login/login_index.html" class="nav-bar__link log_in">SIGN UP</a>
+                </li>
+            </ul>
+            <img src="./image/list.png" alt="menu photo" id="btn-responsive" class="nav-bar__responsive-menu">
+        </nav>
+
+        <section class="web-site-section">
+            <div class="web-site-section__div">
+                <img src="./image/download (10).jpg" alt="" class="web-site-section__image">
+                <h2 class="web-site-section__title">Lorem, ipsum dolor.</h2>
+                <p class="web-site-section__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum
+                    quaerat id perspiciatis quam blanditiis culpa earum animi quasi veniam dolore, laudantium quibusdam
+                    optio molestias provident laborum iure est asperiores!</p>
+                <a href="#" class="web-site-section__link read_more">Buy</a>
+            </div>
+
+            <div class="web-site-section__div">
+                <img src="./image/images (12).jpg" alt="" class="web-site-section__image">
+                <h2 class="web-site-section__title">Lorem, ipsum dolor.</h2>
+                <p class="web-site-section__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum
+                    quaerat id perspiciatis quam blanditiis culpa earum animi quasi veniam dolore, laudantium quibusdam
+                    optio molestias provident laborum iure est asperiores!</p>
+                <a href="#" class="web-site-section__link read_more">Buy</a>
+            </div>
+
+            <div class="web-site-section__div">
+                <img src="./image/download (11).jpg" alt="" class="web-site-section__image">
+                <h2 class="web-site-section__title">Lorem, ipsum dolor.</h2>
+                <p class="web-site-section__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum
+                    quaerat id perspiciatis quam blanditiis culpa earum animi quasi veniam dolore, laudantium quibusdam
+                    optio molestias provident laborum iure est asperiores!</p>
+                <a href="#" class="web-site-section__link read_more">Buy</a>
+            </div>
+
+            <div class="web-site-section__div">
+                <img src="./image/download (2).jpg" alt="" class="web-site-section__image">
+                <h2 class="web-site-section__title">Lorem, ipsum dolor.</h2>
+                <p class="web-site-section__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam eum
+                    quaerat id perspiciatis quam blanditiis culpa earum animi quasi veniam dolore, laudantium quibusdam
+                    optio molestias provident laborum iure est asperiores!</p>
+                <a href="#" class="web-site-section__link read_more">Buy</a>
+            </div>
+
+        </section>
+
+
+        <footer class="web-site-footer">
+            <div class="web-site-footer__col">
+                <h4 class="web-site-footer__col_title">Company</h4>
+                <ul class="web-site-footer__col_list">
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">About us</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">Our Services</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">Privacy Policy</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">Affiliate Program</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="web-site-footer__col">
+                <h4 class="web-site-footer__col_title">Get Help</h4>
+                <ul class="web-site-footer__col_list">
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">FAQ</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">Shipping</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">Order Status</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">Payment Options</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="web-site-footer__col">
+                <h4 class="web-site-footer__col_title">Online shopping</h4>
+                <ul class="web-site-footer__col_list">
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">MAC</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">MSI</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">LENOVO</a>
+                    </li>
+                    <li class="web-site-footer__col_item">
+                        <a href="#" class="web-site-footer__col_link">Others</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="web-site-footer__col">
+                <h4 class="web-site-footer__col_title">Follow</h4>
+                <ul class="social-media__list">
+                    <li class="social-media__item">
+                        <a href="tel:+998900902118" class="social-media__link">
+                            <img src="./image/telephone.png" alt="SM photo" class="social-media__photo">
+                        </a>
+                    </li>
+                    <li class="social-media__item">
+                        <a href="#" class="social-media__link">
+                            <img src="./image/telegram.png" alt="SM photo" class="social-media__photo">
+                        </a>
+                    </li>
+                    <li class="social-media__item">
+                        <a href="#" class="social-media__link">
+                            <img src="./image/instagram.png" alt="SM photo" class="social-media__photo">
+                        </a>
+                    </li>
+                    <li class="social-media__item">
+                        <a href="#" class="social-media__link">
+                            <img src="./image/linkedin.png" alt="SM photo" class="social-media__photo">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+
+</html>

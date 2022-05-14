@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    width: 600px;
+    height: 500px;
+    border: 1px solid rgba(255, 255, 255, 0.6);
+
+    &__nav {
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__btn1 {
+        margin: 0 auto;
+        cursor: pointer;
+
+        &_sign-up {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+
+    }
+
+    &__btn2 {
+        margin: 0 auto;
+        cursor: pointer;
+
+        &_sign-in {
+            text-decoration: none;
+            color: white;
+            font-size: 20px;
+        }
+    }
+}
+
+
